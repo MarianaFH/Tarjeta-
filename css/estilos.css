@@ -1,0 +1,178 @@
+@font-face{
+    font-family:"Sunshine";
+    src: url(../font/A\ little\ sunshine.ttf);
+}
+@font-face{
+    font-family:"Lemon";
+    src: url(../font/DK\ Lemon\ Yellow\ Sun.ttf);
+}
+@font-face{
+    font-family:"DJ";
+    src: url(../font/DJ5CTRIAL.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-size: 20px;
+}
+#titulo{
+    display: block;
+    margin-left: 30%;
+    padding: 5px;
+    width: 40%;
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.tema{  
+    font-size: 20px;
+    margin-top: 2%;
+    text-align: center;
+}
+    .tema input{
+        margin-left:40px;
+    }
+    #iconoTitulo h4{
+        position: relative;
+        bottom: 5px;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    #iconoTitulo img{
+        width: 30px;
+    }
+
+.imagen{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+    .contenedorImagen{
+        width: 20%;
+        margin: 0 2%;
+        display: inline-block;
+    }
+    .contenedorImagen img{
+        width: 100%;
+        height: 200px;
+    }
+.registroDatos{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 30px;
+}
+    .datosTitulo{
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 30px;
+    }
+        .datosTitulo input{
+            display: block;
+            margin-bottom: 5px;
+            padding: 14px;
+        }
+.seleccionarColor{
+    margin-top: 30px;
+}
+    .acomodarColor{
+        display: inline-block;
+        text-align: center;
+        width: 20%;
+        margin-right: 5%;
+    }
+    .seleccionarColor .acomodarColor a{
+        display: inline-block;
+        width: 40%;
+        margin: 10px 0;
+        text-decoration: none;
+        border-radius: 80px 35%;
+        padding: 10px 0;
+        color: #fff;
+    }
+    #rosado{
+        background-color: #a16572;
+    }
+    #azulado{
+        background-color: #688bac;
+    }
+    #vino{
+        background-color: #500f18;
+    }
+
+
+                        #generar{
+                            text-decoration: none;
+                            position: relative;
+                            bottom: 20px;
+                            color: #000;
+                            background-color: #aaa;
+                            border: 1px solid #000;
+                            border-radius: 90px;
+                            padding: 5px 30px;
+                        }
+
+/*-------------Carta Generada------------*/
+.carta{
+width: 50%;
+margin: auto;
+border: 1px solid #000;
+height: 800px;
+display: none;
+}
+
+.tituloUsado{
+    display: block;
+    margin: 25px 0;
+}
+
+.carta img{
+    width: 50%;
+}
+
+.textoUsado{
+    margin: 10px auto;
+    width: 300px;
+    text-align: left;
+}
+.despedidaPersona{
+    display: block;
+}
+.fecha{
+    position: relative;
+    top: 100px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.autor{
+    position: relative;
+    text-align: right;
+    top: 75px;
+    margin-right: 300px;
+}
+
+
+.valentin{
+    border: 8px groove #ffb3cd;
+    box-shadow: 15px 15px 15px rgb(173, 27, 27);
+    font-family:Sunshine;
+}
+
+.cumpleaños{
+    border: 10px dashed #fffc48;
+    box-shadow: 15px 15px 15px #a4dbd9;
+    font-family:Lemon;
+}
+.motivacion{
+    border: 10px ridge #49b472;
+    box-shadow: 15px 15px 15px #16310e;
+    font-family: DJ;
+    padding: 20px;
+}
