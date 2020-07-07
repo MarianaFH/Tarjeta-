@@ -24,7 +24,7 @@ function motivacion(){
 /*--------------------------Opción Imagen-----------------------------------*/
 
 function FotoSelect(nombreFoto){
-    document.getElementById("imagenSeleccionada").src = "../imagenes/" + nombreFoto + ".jpg";
+    document.getElementById("imagenSeleccionada").src = "./imagenes/" + nombreFoto + ".jpg";
 }
 /*-----------------------------------------------------------------------*/
 
